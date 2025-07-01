@@ -1,5 +1,5 @@
 {
-    "name": "assemblerdigital/laravel-mainwp-api",
+    "name": "kylewlawrence/laravel-mainwp-api",
     "type": "library",
     "description": "Laravel API for MainWP",
     "minimum-stability": "beta",
