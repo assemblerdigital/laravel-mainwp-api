@@ -215,15 +215,13 @@ class HttpClient
      */
     public function delete(string $endpoint): ?object
     {
-        $extraOptions = array_merge($options, [
-            'postFields' => $patchData,
-            'method' => 'PATCH',
-        ]);
-
+        $options = [
+            'method' => 'DELETE',
+        ];
         $response = Http::send(
             $this,
             $endpoint,
-            $extraOptions
+            $options
         );
 
         return $response;
